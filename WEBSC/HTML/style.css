@@ -1,0 +1,140 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(250, 235, 215, 0.601);
+  font-size: 18px;
+  color: black;
+}
+
+header {
+  background-color: #f2b705;
+  text-align: center;
+}
+
+header .logo {
+  width: 10rem;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.navbar {
+  background-color: rgb(125, 39, 151);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: none;
+  top: 0;
+  width: auto;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #383333f6;
+}
+
+::marker {
+  color: #a6147f;
+
+}
+
+main {
+  padding: 1rem 2rem 1rem 3rem;
+  width: 100%;
+}
+
+ol li {
+  color: black;
+}
+
+.salgados{
+  border-style:outset;
+  border-width: 1px;
+}
+
+footer {
+  background-color: #f2b705;
+  width: auto;
+  height: auto;
+}
+
+button{
+  border-radius:2px;
+  background-color: #d3a3a3;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.carousel{
+  width: 100%;
+  overflow-x: auto;
+  margin: 2em auto;
+  display: flex;
+  gap: 5px;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar{
+display: none;
+}
+
+.carousel::scroll-button(right), .carousel::scroll-button(left){
+content:'Right';
+border: none;
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+color: white;
+height: 20px;
+width: 40px;
+border-radius: 80%;
+padding-bottom: .5em;
+cursor: pointer;
+}
+.carousel::scroll-button(left){
+content:'Left';
+}
+
+.card {
+  padding: 1em;
+  text-align: center;
+  align-content: center;
+}
+
+#imgCards {
+  border-radius: 60px;
+  flex: 0 0 20em;
+  height: 10em;
+  background-color: rgba(250, 235, 215, 0.601);
+  padding: 1em;
+  text-align: center;
+  align-content: center;
+}
+
+
+
+
+

@@ -1,0 +1,76 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F9F9F9;
+  font-size: 18px;
+  color: black;
+}
+
+.style-header {
+  background-color: #f2b705;
+}
+
+.navbar {
+  background-color: rgb(139, 80, 157);
+}
+
+
+main {
+  width: 70%;
+}
+
+
+.carousel{
+  width: 100%;
+}
+
+.image-strip {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.image-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.thumb {
+  max-width: 300px;
+  max-height: 350px;
+  border-radius: 100px;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: #ffffffdd;
+  border: 1px solid #ccc;
+  font-size: 32px;
+  padding: 4px 12px;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+h4{
+  color: #A6147F;
+}
